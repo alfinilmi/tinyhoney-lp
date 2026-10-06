@@ -1,0 +1,503 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Title tag — 55 chars, satisfies Req 18.1 (≤60 chars, contains "TinyHoney" + benefit term) -->
+  <title>TinyHoney — 100% Madu Murni</title>
+
+  <!-- Meta description — satisfies Req 18.2 (≤160 chars, references digestive health, appetite, immunity) -->
+  <meta name="description" content="Tinyhoney: madu murni + ekstrak alami untuk pencernaan sehat, nafsu makan, dan imunitas anak. BPOM &amp; Halal. Aman untuk usia 1 tahun ke atas.">
+
+  <!-- Open Graph tags — satisfies Req 18.3 -->
+  <meta property="og:title" content="TinyHoney — Pencernaan Sehat, Makan Lahap, Imunitas Kuat">
+  <meta property="og:description" content="Tinyhoney: madu murni dengan ekstrak alami untuk pencernaan sehat, nafsu makan, dan imunitas anak. BPOM &amp; Halal terjamin.">
+  <meta property="og:image" content="assets/images/banner-desktop.png">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/logo/icon.png">
+
+  <!-- Single render-blocking CSS — satisfies Req 19.2 -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Site Header — satisfies Req 3.3, 17.4 -->
+  <header class="site-header">
+    <a href="#" class="site-header__logo" aria-label="TinyHoney — kembali ke atas">
+      <img src="assets/logo/logo.webp"
+           alt="TinyHoney"
+           width="50"
+           height="48">
+      <span class="site-header__brand">TinyHoney</span>
+    </a>
+  </header>
+
+  <!-- Main content landmark — satisfies Req 17.4 -->
+  <!-- Sections 2.2–2.4 will be inserted here -->
+  <main id="main-content">
+
+    <!-- SECTION 1: Hero — satisfies Req 2.1–2.6, 3.1–3.4, 16.1, 17.1 -->
+    <section id="hero" class="hero" aria-label="Perkenalan produk TinyHoney">
+      <div class="hero__content">
+        <p class="hero__badge">
+          <span aria-hidden="true">🍯</span>
+          100% Madu Murni &amp; Ekstrak Alami | Terdaftar BPOM &amp; Bersertifikat Halal
+        </p>
+        <h1 class="hero__title">Pencernaan Sehat, Makan Lahap, Imunitas Kuat.</h1>
+        <p class="hero__subtitle">
+          <b>TinyHoney</b> menghadirkan kebaikan madu murni dengan jahe merah dan daun pepaya
+          sebagai sumber prebiotik alami untuk <b>memperbaiki pencernaan, menjaga imunitas,
+          serta mengembalikan nafsu makan si kecil</b> dari dalam.
+        </p>
+        <a href="#"
+           class="btn btn--whatsapp js-whatsapp-cta"
+           data-cta-context="hero"
+           target="_blank"
+           rel="noopener noreferrer">
+          👉 Konsultasi &amp; Order via WhatsApp
+        </a>
+        <p class="hero__note">
+          <em>*Cocok &amp; aman dikonsumsi untuk anak usia 1 tahun ke atas</em>
+        </p>
+      </div>
+      <picture class="hero__image">
+        <source media="(min-width: 768px)" srcset="assets\images\product-podium.png">
+        <img src="assets\images\product-podium.png"
+             alt="Ibu dan anak bahagia menggunakan TinyHoney, suplemen madu untuk pencernaan dan nafsu makan anak"
+             width="375"
+             height="300"
+             loading="eager">
+      </picture>
+    </section>
+
+    <!-- SECTION 2: Pain Points — satisfies Req 4.1–4.5, 16.1, 16.2, 17.1 -->
+    <section id="pain-points" class="pain-points" aria-label="Masalah umum Bunda dan si kecil">
+      <div class="container">
+        <h2 class="section-title">Bunda &amp; Si Kecil Mengalami Masalah Ini?</h2>
+        <div class="pain-points__grid">
+
+          <article class="problem-card">
+            <img src="assets/images/problem/kembung-dan-rewel.jpg"
+                 alt="Anak rewel karena perut kembung dan begah, nafsu makan menurun"
+                 width="300"
+                 height="300"
+                 loading="lazy">
+            <h3 class="problem-card__title">😣 Sering Kembung &amp; Rewel</h3>
+            <p class="problem-card__desc">
+              Perut si kecil sering terasa begah dan tidak nyaman, membuatnya rewel
+              sepanjang hari hingga nafsu makannya menurun drastis.
+            </p>
+          </article>
+
+          <article class="problem-card">
+            <img src="assets/images/problem/anak-susah-makan.png"
+                 alt="Anak menolak makan, drama GTM membuat Bunda cemas akan kecukupan nutrisi"
+                 width="300"
+                 height="300"
+                 loading="lazy">
+            <h3 class="problem-card__title">🍽️ Drama Susah Makan (GTM)</h3>
+            <p class="problem-card__desc">
+              Makanan sering ditolak atau dimuntahkan lagi sehingga Bunda cemas nutrisi
+              harian dan tumbuh kembangnya tidak tercukupi.
+            </p>
+          </article>
+
+          <article class="problem-card">
+            <img src="assets/images/problem/anak-sakit.png"
+                 alt="Anak sakit dan tidak masuk sekolah karena daya tahan tubuh yang lemah"
+                 width="300"
+                 height="300"
+                 loading="lazy">
+            <h3 class="problem-card__title">🤒 Daya Tahan Tubuh Rentan</h3>
+            <p class="problem-card__desc">
+              Tubuh sering kurang fit sampai harus izin tidak masuk sekolah, sehingga
+              anak kehilangan momen berharga untuk belajar dan bermain bersama temannya.
+            </p>
+          </article>
+
+          <article class="problem-card">
+            <img src="assets/images/problem/ibu-bingung.png"
+                 alt="Ibu bingung memilih suplemen anak yang benar-benar aman dan terbukti"
+                 width="300"
+                 height="300"
+                 loading="lazy">
+            <h3 class="problem-card__title">🤯 Bingung Memilih Suplemen</h3>
+            <p class="problem-card__desc">
+              Terlalu banyak klaim iklan yang membingungkan hingga Bunda ragu mana
+              pilihan alami yang benar-benar aman dan terbukti.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Root Cause — satisfies Req 5.1–5.3, 16.1, 16.2, 17.1 -->
+    <section id="root-cause" class="root-cause" aria-label="Akar masalah dan solusi pencernaan anak">
+      <div class="container">
+        <div class="root-cause__inner">
+          <div class="root-cause__content">
+            <h2 class="root-cause__title">
+              Tahukah Bunda? 70% Sistem Imun dan Nafsu Makan Berawal dari
+              Pencernaan yang Sehat!
+            </h2>
+            <p class="root-cause__body">
+              Ketika saluran cerna anak terganggu, perut terasa begah dan kembung,
+              makanan apa pun akan terasa tidak nyaman di lidah mereka. Akibatnya,
+              anak GTM (Gerakan Tolak Makan) dan tubuhnya mudah drop.
+            </p>
+            <p class="root-cause__body">
+              Tenang, Bunda gak perlu bingung lagi. <strong>Tinyhoney</strong> hadir
+              dengan komposisi yang jujur dan jelas: memadukan madu murni bersama
+              6 ekstrak herbal pilihan yang bekerja selaras memperbaiki pencernaan
+              dari akarnya.
+            </p>
+          </div>
+          <div class="root-cause__image-wrap">
+            <img src="assets/images/product-podium.png"
+                 alt="Botol produk TinyHoney dengan komposisi madu murni dan 6 ekstrak herbal alami"
+                 class="root-cause__image"
+                 width="400"
+                 height="400"
+                 loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Ingredients — satisfies Req 6.1–6.6, 16.1, 16.2, 17.1 -->
+    <section id="ingredients" class="ingredients" aria-label="Komposisi dan manfaat bahan TinyHoney">
+      <div class="container">
+        <h2 class="section-title">Satu Sendok Tinyhoney, Manfaatnya Banyak Banget</h2>
+        <div class="ingredients__grid">
+
+          <article class="ingredient-card">
+            <img src="assets/images/komposisi/madu.png"
+                 alt="Madu murni sebagai sumber energi harian dan antioksidan alami untuk anak"
+                 width="120" height="120" loading="lazy">
+            <h3 class="ingredient-card__name">Madu Murni</h3>
+            <p class="ingredient-card__benefit">Memberikan karbohidrat sederhana sebagai sumber energi harian si kecil serta kaya senyawa bioaktif/antioksidan alami.</p>
+          </article>
+
+          <article class="ingredient-card">
+            <img src="assets/images/komposisi/jahe-merah.png"
+                 alt="Jahe merah dengan kandungan prebiotik untuk mendukung kenyamanan pencernaan anak"
+                 width="120" height="120" loading="lazy">
+            <h3 class="ingredient-card__name">Jahe Merah</h3>
+            <p class="ingredient-card__benefit">Kandungan prebiotiknya membantu mendukung kenyamanan dan kesehatan pencernaan anak.</p>
+          </article>
+
+          <article class="ingredient-card">
+            <img src="assets/images/komposisi/daun-pepaya.png"
+                 alt="Daun pepaya sebagai sumber prebiotik alami untuk mendukung mikrobioma pencernaan anak"
+                 width="120" height="120" loading="lazy">
+            <h3 class="ingredient-card__name">Daun Pepaya</h3>
+            <p class="ingredient-card__benefit">Membantu pemenuhan prebiotik alami untuk mendukung mikrobioma dan pencernaan anak.</p>
+          </article>
+
+          <article class="ingredient-card">
+            <img src="assets/images/komposisi/habbatussauda.png"
+                 alt="Habbatussauda untuk meredakan keluhan begah, kembung, dan rasa tidak nyaman di perut anak"
+                 width="120" height="120" loading="lazy">
+            <h3 class="ingredient-card__name">Habbatussauda</h3>
+            <p class="ingredient-card__benefit">Membantu meredakan keluhan begah, kembung, dan rasa tidak nyaman di perut anak.</p>
+          </article>
+
+          <article class="ingredient-card">
+            <img src="assets/images/komposisi/temulawak.png"
+                 alt="Temulawak untuk merangsang proses pencernaan dan mendukung nafsu makan anak secara alami"
+                 width="120" height="120" loading="lazy">
+            <h3 class="ingredient-card__name">Temulawak</h3>
+            <p class="ingredient-card__benefit">Membantu merangsang proses pencernaan dan mendukung nafsu makan anak secara alami.</p>
+          </article>
+
+          <article class="ingredient-card">
+            <img src="assets/images/komposisi/kunyit.png"
+                 alt="Kunyit untuk merangsang pencernaan dan sekresi empedu sehingga mendukung proses pencernaan anak"
+                 width="120" height="120" loading="lazy">
+            <h3 class="ingredient-card__name">Kunyit</h3>
+            <p class="ingredient-card__benefit">Membantu merangsang proses pencernaan dan sekresi empedu, sehingga mendukung proses pencernaan anak.</p>
+          </article>
+
+          <article class="ingredient-card">
+            <img src="assets/images/komposisi/apel.png"
+                 alt="Ekstrak apel mengandung serat larut pektin untuk menjaga kelancaran pencernaan anak"
+                 width="120" height="120" loading="lazy">
+            <h3 class="ingredient-card__name">Ekstrak Apel</h3>
+            <p class="ingredient-card__benefit">Mengandung serat larut (pektin) yang membantu menjaga kelancaran proses pencernaan agar anak lebih nyaman saat BAB.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: Taste — satisfies Req 7.1–7.3, 16.1, 16.2, 17.1, 17.2 -->
+    <section id="taste" class="taste" aria-label="Rasa dan tekstur TinyHoney yang disukai anak">
+      <div class="container">
+        <h2 class="section-title">Rasa Enak yang Pasti Disukai Si Kecil!</h2>
+        <div class="taste__features">
+
+          <div class="taste-feature">
+            <span class="taste-feature__icon" aria-hidden="true">😋</span>
+            <h3 class="taste-feature__title">Manis &amp; Segar Alami</h3>
+            <p class="taste-feature__desc">Manisnya pas, segar, dan tidak ada bau amis.</p>
+          </div>
+
+          <div class="taste-feature">
+            <span class="taste-feature__icon" aria-hidden="true">💧</span>
+            <h3 class="taste-feature__title">Tekstur Lembut</h3>
+            <p class="taste-feature__desc">Sedikit kental namun cair di mulut, tidak serat atau nyangkut di tenggorokan anak.</p>
+          </div>
+
+          <div class="taste-feature">
+            <span class="taste-feature__icon" aria-hidden="true">🥣</span>
+            <h3 class="taste-feature__title">Fleksibel &amp; Mudah Dikonsumsi</h3>
+            <p class="taste-feature__desc">Bisa langsung diminum dari sendok, atau dicampurkan ke dalam air putih, susu hangat, maupun camilan sehat favorit si kecil!</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: Cara Konsumsi — satisfies Req 8.1–8.4, 16.1, 16.2, 17.1, 17.2 -->
+    <section id="cara-konsumsi" class="cara-konsumsi" aria-label="Panduan aturan pakai harian Tinyhoney">
+      <div class="container">
+        <h2 class="section-title">Panduan Aturan Pakai Harian Tinyhoney</h2>
+        <div class="cara-konsumsi__points">
+
+          <div class="usage-point">
+            <span class="usage-point__icon" aria-hidden="true">⏰</span>
+            <h3 class="usage-point__title">Waktu Terbaik</h3>
+            <p class="usage-point__desc">Pagi dan sore hari setelah makan.</p>
+          </div>
+
+          <div class="usage-point">
+            <span class="usage-point__icon" aria-hidden="true">🥄</span>
+            <h3 class="usage-point__title">Takaran Sederhana</h3>
+            <p class="usage-point__desc">Cukup 1 sendok makan per konsumsi.</p>
+          </div>
+
+          <div class="usage-point">
+            <span class="usage-point__icon" aria-hidden="true">👶</span>
+            <h3 class="usage-point__title">Usia Konsumsi</h3>
+            <p class="usage-point__desc">Aman dan direkomendasikan untuk anak usia 1 tahun ke atas.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: Social Proof — satisfies Req 9.1–9.6, 16.1, 16.2, 17.1 -->
+    <section id="social-proof" class="social-proof" aria-label="Sertifikasi dan testimoni TinyHoney">
+      <div class="container">
+        <h2 class="section-title">Ketenangan Hati Bunda Adalah Prioritas Utama Kami</h2>
+
+        <div class="social-proof__certs">
+          <div class="cert-group">
+            <img src="assets/images/logo-bpom.png"
+                 alt="Logo BPOM — Badan Pengawas Obat dan Makanan, izin edar resmi TinyHoney"
+                 width="60" height="60" loading="lazy">
+            <p class="cert-group__claim">
+              <strong>Izin Resmi BPOM:</strong> Teruji klinis dan terdaftar resmi di Badan Pengawas Obat dan Makanan.
+            </p>
+          </div>
+          <div class="cert-group">
+            <img src="assets/images/logo-halal.png"
+                 alt="Logo Halal — sertifikasi kehalalan dan kehigienisan produk TinyHoney"
+                 width="60" height="60" loading="lazy">
+            <p class="cert-group__claim">
+              <strong>Sertifikat Halal:</strong> Terjamin kehalalan dan kehigienisannya di setiap tetes.
+            </p>
+          </div>
+        </div>
+
+        <div class="social-proof__product">
+          <img src="assets/images/produk-halal-bpom.png"
+               alt="Produk TinyHoney dengan logo BPOM dan Halal yang terlihat jelas pada kemasan"
+               width="400" height="400" loading="lazy">
+        </div>
+
+        <h3 class="social-proof__testimoni-title">Cerita Bunda Lainnya</h3>
+        <div class="testimoni-grid">
+          <img src="assets/images/testimoni/3.png" alt="Testimoni pelanggan TinyHoney 1" width="200" height="300" loading="lazy">
+          <img src="assets/images/testimoni/4.png" alt="Testimoni pelanggan TinyHoney 2" width="200" height="300" loading="lazy">
+          <img src="assets/images/testimoni/5.png" alt="Testimoni pelanggan TinyHoney 3" width="200" height="300" loading="lazy">
+          <img src="assets/images/testimoni/6.png" alt="Testimoni pelanggan TinyHoney 4" width="200" height="300" loading="lazy">
+          <img src="assets/images/testimoni/7.png" alt="Testimoni pelanggan TinyHoney 5" width="200" height="300" loading="lazy">
+          <img src="assets/images/testimoni/8.png" alt="Testimoni pelanggan TinyHoney 6" width="200" height="300" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- Promo Section Placeholder — satisfies Req 14.1–14.3; hidden until content is added -->
+    <section id="promo" aria-label="" hidden>
+      <!-- Content will be inserted here when a promo or pricing offer is ready -->
+    </section>
+
+    <!-- SECTION 8: FAQ — satisfies Req 10.1–10.6, 17.4, 17.5 -->
+    <section id="faq" class="faq" aria-label="Pertanyaan yang sering diajukan tentang TinyHoney">
+      <div class="container">
+        <h2 class="section-title">Pertanyaan Umum (FAQ)</h2>
+        <div class="faq__list">
+
+          <div class="faq-item">
+            <h3 class="faq-item__heading">
+              <button class="faq-item__trigger"
+                      aria-expanded="false"
+                      aria-controls="faq-panel-1"
+                      id="faq-trigger-1">
+                Apakah produk ini sudah memiliki izin resmi BPOM dan sertifikasi Halal?
+              </button>
+            </h3>
+            <div class="faq-item__panel"
+                 id="faq-panel-1"
+                 role="region"
+                 aria-labelledby="faq-trigger-1"
+                 hidden>
+              <p>Ya, Tinyhoney sudah memiliki izin edar resmi BPOM dan tersertifikasi Halal yang nomor registrasinya tertera jelas pada kemasan produk.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <h3 class="faq-item__heading">
+              <button class="faq-item__trigger"
+                      aria-expanded="false"
+                      aria-controls="faq-panel-2"
+                      id="faq-trigger-2">
+                Apakah madu Tinyhoney adalah madu murni?
+              </button>
+            </h3>
+            <div class="faq-item__panel"
+                 id="faq-panel-2"
+                 role="region"
+                 aria-labelledby="faq-trigger-2"
+                 hidden>
+              <p>Betul, Tinyhoney menggunakan madu murni berkualitas yang dipadukan dengan 6 ekstrak alami (habbatussauda, temulawak, kunyit, daun pepaya, apel, dan jahe merah).</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <h3 class="faq-item__heading">
+              <button class="faq-item__trigger"
+                      aria-expanded="false"
+                      aria-controls="faq-panel-3"
+                      id="faq-trigger-3">
+                Apakah Tinyhoney benar-benar bisa membantu anak yang susah makan?
+              </button>
+            </h3>
+            <div class="faq-item__panel"
+                 id="faq-panel-3"
+                 role="region"
+                 aria-labelledby="faq-trigger-3"
+                 hidden>
+              <p>Sangat bisa! Kandungan temulawak, kunyit, daun pepaya, jahe merah, dan madu di dalamnya memicu nafsu makan anak secara alami dengan cara menyehatkan pencernaannya terlebih dahulu.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <h3 class="faq-item__heading">
+              <button class="faq-item__trigger"
+                      aria-expanded="false"
+                      aria-controls="faq-panel-4"
+                      id="faq-trigger-4">
+                Mulai usia berapa anak aman mengonsumsinya?
+              </button>
+            </h3>
+            <div class="faq-item__panel"
+                 id="faq-panel-4"
+                 role="region"
+                 aria-labelledby="faq-trigger-4"
+                 hidden>
+              <p>Tinyhoney dapat mulai dikonsumsi anak usia 1 tahun ke atas.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <h3 class="faq-item__heading">
+              <button class="faq-item__trigger"
+                      aria-expanded="false"
+                      aria-controls="faq-panel-5"
+                      id="faq-trigger-5">
+                Bagaimana jika si kecil pemilih rasa?
+              </button>
+            </h3>
+            <div class="faq-item__panel"
+                 id="faq-panel-5"
+                 role="region"
+                 aria-labelledby="faq-trigger-5"
+                 hidden>
+              <p>Rasanya manis alami dan segar tanpa aroma amis, serta teksturnya pas di tenggorokan. Jika anak pemilih, Bunda bisa mencampurkannya ke dalam susu atau jus buah favoritnya.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 9: Final CTA — satisfies Req 11.1–11.4, 12.1–12.3 -->
+    <section id="final-cta" class="final-cta" aria-label="Pesan TinyHoney sekarang">
+      <div class="container">
+        <h2 class="final-cta__title">Kembalikan Kebahagiaan Si Kecil Mulai Hari Ini!</h2>
+        <p class="final-cta__subtitle">
+          Yuk Bunda, bantu penuhi prebiotik alaminya dan jaga saluran cernanya bersama
+          Tinyhoney. Kami siap membantu menjawab pertanyaan seputar kebutuhan si kecil.
+        </p>
+        <a href="#"
+           class="btn btn--whatsapp js-whatsapp-cta"
+           data-cta-context="final-cta"
+           target="_blank"
+           rel="noopener noreferrer">
+          📲 Pesan Tinyhoney &amp; Konsultasi via WhatsApp
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Sticky WhatsApp Button — satisfies Req 1.3, 13.1–13.4 -->
+  <a href="#"
+     class="sticky-wa js-whatsapp-cta"
+     data-cta-context="sticky"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Pesan dan konsultasi TinyHoney via WhatsApp">
+    <img src="assets/images/logo-whatsapp.png"
+         alt=""
+         aria-hidden="true"
+         width="28"
+         height="28">
+    <span class="sticky-wa__label">Pesan Sekarang</span>
+  </a>
+
+  <!-- Footer — satisfies Req 20.1–20.4, 17.4 -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__brand">
+        <img src="assets/logo/logo.webp" alt="TinyHoney" width="40" height="40">
+        <span>TinyHoney</span>
+      </div>
+      <div class="site-footer__certs">
+        <p>Terdaftar BPOM &amp; Bersertifikat Halal</p>
+      </div>
+      <div class="site-footer__contact">
+        <a href="#"
+           class="js-whatsapp-cta"
+           data-cta-context="footer"
+           target="_blank"
+           rel="noopener noreferrer">
+          📲 Hubungi via WhatsApp
+        </a>
+      </div>
+      <p class="site-footer__copyright">
+        &copy; <span id="current-year">2025</span> TinyHoney. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Deferred JS — satisfies Req 19.3 -->
+  <script defer src="js/main.js"></script>
+</body>
+</html>
